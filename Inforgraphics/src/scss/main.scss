@@ -1,0 +1,313 @@
+/* 
+==============================================
+CONTENT:	Project Name Here
+AUTHOR:		Your Name Here
+==============================================
+
+TABLE OF CONTENTS:
+
+0. Reset
+1. Main Layout
+2. Content
+
+==============================================
+*/
+
+/* 0. Reset ================================= */
+@import 'reset';
+
+
+/* 1. Main Layout ================================= */
+
+@media only screen and (max-width: 667px) {
+	* {
+		box-sizing: border-box;
+	}
+
+	body {
+		background-color: #2A363B;
+		padding: 20px;
+		position: relative;
+	}
+
+
+
+	.ABC{
+		margin-left: 12%;
+		width: 80%;
+		margin-top: 20px;
+	}
+
+
+
+	.d{
+		width: 4%;
+	    position: absolute;
+	    top: 23.7%;
+	    left: 73.7%;
+
+	    &:hover {
+				width: 15%;
+				transition: 2s;
+			}
+	}
+
+	.s{
+		width: 4%;
+	    position: absolute;
+	    top:  64%;
+	    left: 59.4%;
+	    transition: transform 1s;
+
+	    &:hover {
+				transform: rotate(1080deg);
+			}
+	}
+
+	.j{
+		width: 4%;
+	    position: absolute;
+	    top:  43%;
+	    left: 44%;
+	    transition: transform 1s;
+
+	    &:hover {
+				animation: shake 0.5s;
+				animation-iteration-count: infinite;
+
+			}
+			@keyframes shake {
+				  0% { transform: translate(1px, 1px) rotate(0deg); }
+				  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+				  20% { transform: translate(-3px, 0px) rotate(1deg); }
+				  30% { transform: translate(3px, 2px) rotate(0deg); }
+				  40% { transform: translate(1px, -1px) rotate(1deg); }
+				  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+				  60% { transform: translate(-3px, 1px) rotate(0deg); }
+				  70% { transform: translate(3px, 1px) rotate(-1deg); }
+				  80% { transform: translate(-1px, -1px) rotate(1deg); }
+				  90% { transform: translate(1px, 2px) rotate(0deg); }
+				  100% { transform: translate(1px, -2px) rotate(-1deg); }
+				}
+		}
+
+	.m{
+		width: 5%;
+	    position: absolute;
+	    top: 53.5%;
+	    left: 30.5%;
+
+		&:hover{
+			opacity: .1;
+			transition: 2s;
+		}
+	}
+
+	.brow{
+		width: 3%;
+	    position: absolute;
+	    top: 64%;
+	    left: 28.9%;
+	    
+
+	    &:hover{
+	    	animation: bounce .8s;
+	    }
+	}
+
+	@keyframes bounce {
+		0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+		40% {transform: translateY(-30px);}
+		60% {transform: translateY(-15px);}
+	}
+
+
+	.fire{
+		width: 8.1%;
+	    position: absolute;
+	    top:  73.5%;
+	    left: 57.5%;
+	    transition: transform 1s;
+
+	    &:hover {
+				animation: shake 0.5s;
+				animation-iteration-count: infinite;
+
+			}
+			@keyframes shake {
+				  0% { transform: translate(1px, 1px) rotate(0deg); }
+				  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+				  20% { transform: translate(-3px, 0px) rotate(1deg); }
+				  30% { transform: translate(3px, 2px) rotate(0deg); }
+				  40% { transform: translate(1px, -1px) rotate(1deg); }
+				  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+				  60% { transform: translate(-3px, 1px) rotate(0deg); }
+				  70% { transform: translate(3px, 1px) rotate(-1deg); }
+				  80% { transform: translate(-1px, -1px) rotate(1deg); }
+				  90% { transform: translate(1px, 2px) rotate(0deg); }
+				  100% { transform: translate(1px, -2px) rotate(-1deg); }
+				}
+		}
+
+	// .n{
+	// 	width: 4%;
+	// 	top: 50%;
+	// }
+
+
+}
+
+@media only screen and (min-width: 1440px)    {
+	.d{
+	width: 10%;
+    top: 20.3%;
+    left: 76.4%;
+
+    &:hover {
+			width: 15%;
+			transition: 2s;
+		}
+}
+
+}
+
+// .j{
+// 	width: 4%;
+//     position: absolute;
+//     top:  111%;
+//     left: 44%;
+//     transition: transform 1s;
+
+//     &:hover {
+// 			animation: shake 0.5s;
+// 			animation-iteration-count: infinite;
+
+// 		}
+// 		@keyframes shake {
+// 			  0% { transform: translate(1px, 1px) rotate(0deg); }
+// 			  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+// 			  20% { transform: translate(-3px, 0px) rotate(1deg); }
+// 			  30% { transform: translate(3px, 2px) rotate(0deg); }
+// 			  40% { transform: translate(1px, -1px) rotate(1deg); }
+// 			  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+// 			  60% { transform: translate(-3px, 1px) rotate(0deg); }
+// 			  70% { transform: translate(3px, 1px) rotate(-1deg); }
+// 			  80% { transform: translate(-1px, -1px) rotate(1deg); }
+// 			  90% { transform: translate(1px, 2px) rotate(0deg); }
+// 			  100% { transform: translate(1px, -2px) rotate(-1deg); }
+// 			}
+// 	}
+
+
+
+// .m{
+// 	width: 5%;
+//     position: absolute;
+//     top: 142%;
+//     left: 29.1%;
+
+// 	&:hover{
+// 		opacity: .1;
+// 		transition: 2s;
+// 	}
+// }
+
+// .s{
+// 	width: 4%;
+//     position: absolute;
+//     top:  174.7%;
+//     left: 60.4%;
+//     transition: transform 1s;
+
+//     &:hover {
+// 			transform: rotate(1080deg);
+// 		}
+// }
+
+
+// .fire{
+// 	width: 9%;
+//     position: absolute;
+//     top:  203.5%;
+//     left: 57.9%;
+//     transition: transform 1s;
+
+//     &:hover {
+// 			animation: shake 0.5s;
+// 			animation-iteration-count: infinite;
+
+// 		}
+// 		@keyframes shake {
+// 			  0% { transform: translate(1px, 1px) rotate(0deg); }
+// 			  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+// 			  20% { transform: translate(-3px, 0px) rotate(1deg); }
+// 			  30% { transform: translate(3px, 2px) rotate(0deg); }
+// 			  40% { transform: translate(1px, -1px) rotate(1deg); }
+// 			  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+// 			  60% { transform: translate(-3px, 1px) rotate(0deg); }
+// 			  70% { transform: translate(3px, 1px) rotate(-1deg); }
+// 			  80% { transform: translate(-1px, -1px) rotate(1deg); }
+// 			  90% { transform: translate(1px, 2px) rotate(0deg); }
+// 			  100% { transform: translate(1px, -2px) rotate(-1deg); }
+// 			}
+// 	}
+
+
+
+
+// }
+
+// @media only screen and (max-width: 768px) {
+// 	.m{
+// 	width: 4%;
+//     position: absolute;
+//     top:  52%;
+//     left: 29.8%;
+
+// 	&:hover{
+// 		opacity: .1;
+// 		transition: 2s;
+// 		}
+// 	}
+// }
+
+// .j{
+// 	width: 4%;
+//     position: absolute;
+//     top:  111.5%;
+//     left: 44%;
+//     transition: transform 1s;
+
+//     &:hover {
+// 			animation: shake 0.5s;
+// 			animation-iteration-count: infinite;
+
+// 		}
+// 		@keyframes shake {
+// 			  0% { transform: translate(1px, 1px) rotate(0deg); }
+// 			  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+// 			  20% { transform: translate(-3px, 0px) rotate(1deg); }
+// 			  30% { transform: translate(3px, 2px) rotate(0deg); }
+// 			  40% { transform: translate(1px, -1px) rotate(1deg); }
+// 			  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+// 			  60% { transform: translate(-3px, 1px) rotate(0deg); }
+// 			  70% { transform: translate(3px, 1px) rotate(-1deg); }
+// 			  80% { transform: translate(-1px, -1px) rotate(1deg); }
+// 			  90% { transform: translate(1px, 2px) rotate(0deg); }
+// 			  100% { transform: translate(1px, -2px) rotate(-1deg); }
+// 			}
+// 		}
+
+// .s{
+// 	width: 4%;
+//     position: absolute;
+//     top:  174.8%;
+//     left: 60.4%;
+//     transition: transform 1s;
+
+//     &:hover {
+// 			transform: rotate(1080deg);
+// 		}
+
+
+
